@@ -1,9 +1,56 @@
-List of Tools Random Order
-
-
-NAME, Type, Open-Source, Description, Use-Case
-
-MISP Project, 
-The Hive, 
-AIL Framework, 
-PyMISP
+[
+  {
+    "tool": "Splunk",
+    "category": "SIEM",
+    "open_source": false,
+    "description": "Enterprise log management and analytics platform"
+  },
+  {
+    "tool": "ELK Stack",
+    "category": "SIEM",
+    "open_source": true,
+    "description": "Elasticsearch, Logstash, Kibana - custom log analytics"
+  },
+  {
+    "tool": "Wazuh",
+    "category": "SIEM / IDS",
+    "open_source": true,
+    "description": "Security monitoring with built-in threat detection"
+  },
+  {
+    "tool": "TheHive",
+    "category": "Incident Response",
+    "open_source": true,
+    "description": "Scalable IR platform to collaborate on investigations"
+  },
+  {
+    "tool": "MISP",
+    "category": "Threat Intelligence",
+    "open_source": true,
+    "description": "Open source platform for sharing threat intel (STIX, IoC)"
+  },
+  {
+    "tool": "PyMISP",
+    "category": "Python Library",
+    "open_source": true,
+    "description": "Python library to interact with the MISP REST API"
+  },
+  {
+    "tool": "AIL",
+    "category": "Threat Intel Analysis",
+    "open_source": true,
+    "description": "Framework for analyzing and mining information leaks"
+  },
+  {
+    "tool": "QRadar",
+    "category": "SIEM",
+    "open_source": false,
+    "description": "IBM's enterprise SIEM with built-in threat intelligence"
+  },
+  {
+    "tool": "Graylog",
+    "category": "SIEM",
+    "open_source": true,
+    "description": "Centralized log analysis with alerting features"
+  }
+]
